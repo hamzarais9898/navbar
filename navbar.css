@@ -1,0 +1,48 @@
+.principale{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(65,178,244);
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 7px 7px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+.principale .secondaire1 h1{
+    color: white;
+}
+.principale .secondaire1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.principale .secondaire2 ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin: 35px 20px 0px 0px;
+}
+.principale .secondaire2 ul li{
+    color: white;
+    list-style: none;
+}
+.principale .secondaire1 h1:hover{
+    font-size: 35px;
+}
+.principale .secondaire2 ul li:hover{
+    color :black;
+    cursor: pointer;
+}
+.button:hover{
+    border-radius: 20px;
+    background-color: red;
+    color: black;
+}
+.image1{
+    width :60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 20px;
+}
